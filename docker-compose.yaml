@@ -1,0 +1,10 @@
+version: '3.8'
+services: # app components like ui , logs , db 
+  ashu-ui-service:
+    image: ashu-webui:version$BUILD_NUMBER 
+    build:
+      context: . # location of dockerfile 
+      dockerfile: Dockerfile  # name of Dockerfile 
+    container_name: ashu-web-c1 # name of container 
+    ports:
+      - 1234:80 # you can use 1024-5000 range 
