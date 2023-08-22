@@ -5,6 +5,6 @@ services: # app components like ui , logs , db
     build:
       context: . # location of dockerfile 
       dockerfile: Dockerfile  # name of Dockerfile 
-    container_name: ashu-web-c1 # name of container 
+    container_name: ashu-web-c2 # name of container 
     ports:
-      - 1234:80 # you can use 1024-5000 range 
+      - 1235:80 # you can use 1024-5000 range 
