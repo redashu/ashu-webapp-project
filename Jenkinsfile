@@ -2,7 +2,7 @@ pipeline {
   agent {
     label 'master'
   }
-  environement {
+  environment {
     USER = 'ashutoshh'
     DB  = 'mydata'
   }
