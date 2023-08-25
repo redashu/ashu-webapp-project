@@ -17,6 +17,7 @@ pipeline {
                whoami
             '''
         }
+    }
     post {
       always {
         echo 'this section will be running always with user $USER'
@@ -28,12 +29,5 @@ pipeline {
         echo 'general notification'
       }
     }
-  }
-
-
-  
-}
-
-
   
 }
