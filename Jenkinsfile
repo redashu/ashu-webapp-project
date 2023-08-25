@@ -18,6 +18,7 @@ pipeline {
             '''
         }
     }
+  }
     post {
       always {
         echo 'this section will be running always with user $USER'
